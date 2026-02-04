@@ -43,11 +43,11 @@ WriteMakefile(
         resources => {
             repository => {
                 type => 'git',
-                url  => 'https://github.com/yourusername/Plack-Middleware-ProofOfWork.git',
-                web  => 'https://github.com/yourusername/Plack-Middleware-ProofOfWork',
+                url  => 'https://github.com/pstadt/Plack-Middleware-ProofOfWork.git',
+                web  => 'https://github.com/pstadt/Plack-Middleware-ProofOfWork',
             },
             bugtracker => {
-                web => 'https://github.com/yourusername/Plack-Middleware-ProofOfWork/issues',
+                web => 'https://github.com/pstadt/Plack-Middleware-ProofOfWork/issues',
             },
         },
     },

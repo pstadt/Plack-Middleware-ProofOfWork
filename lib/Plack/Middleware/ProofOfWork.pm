@@ -26,7 +26,7 @@ use File::Spec;
 use Socket qw(:addrinfo SOCK_RAW AF_INET AF_INET6 NI_NUMERICHOST inet_pton inet_ntop);
 use Time::HiRes qw(alarm);
 
-our $VERSION = '0.20';
+our $VERSION = '0.21';
 
 sub prepare_app {
     my $self = shift;
