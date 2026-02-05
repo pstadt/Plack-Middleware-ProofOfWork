@@ -1,5 +1,9 @@
 Revision history for Plack-Middleware-ProofOfWork
 
+0.23  2026-02-04
+    - Fixed test suite: Added explicit User-Agent to invalid cookie test
+    - Prevents accidental bot matching with default User-Agent
+
 0.22  2026-02-04
     - Extended bot_patterns to support 14 different bots
     - Added: yandexbot/, petalbot, ahrefsbot/, barkrowler/
